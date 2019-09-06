@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/withheart/Documents/studys/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/withheart/Documents/studys/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/withheart/Documents/studys/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/Users/withheart/Documents/studys/test/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/withheart/Documents/studys/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/withheart/Documents/studys/test/."/>
+					<Add directory="/Users/withheart/Documents/studys/test/test"/>
+					<Add directory="/Users/withheart/Documents/studys/test/test.xcodeproj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/Users/withheart/Documents/studys/test/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/withheart/Documents/studys/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/withheart/Documents/studys/test/."/>
+					<Add directory="/Users/withheart/Documents/studys/test/test"/>
+					<Add directory="/Users/withheart/Documents/studys/test/test.xcodeproj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/withheart/Documents/studys/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/withheart/Documents/studys/test/test.xcodeproj/project.pbxproj">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test.xcodeproj/project.xcworkspace/contents.xcworkspacedata">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test.xcodeproj/project.xcworkspace/xcuserdata/withheart.xcuserdatad/UserInterfaceState.xcuserstate">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test.xcodeproj/xcuserdata/withheart.xcuserdatad/xcschemes/xcschememanagement.plist">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/binary/binary.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/binary/binary.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/dp/fib.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/dp/serling.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/kmp.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/offers/task_3_11.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/offers/task_3_11.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/sort/sorts.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/algorithms/sort/sorts.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/main.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/test/om/1.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/withheart/Documents/studys/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

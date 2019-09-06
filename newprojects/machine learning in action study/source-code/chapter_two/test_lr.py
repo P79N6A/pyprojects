@@ -1,0 +1,20 @@
+import numpy
+weights = numpy.ones(3)
+print(numpy.array(weights))
+matris_in = []
+matris_in.append([1.0, 2.0, 3.0])
+matris_in.append([1.0, 3.0, 3.0])
+matris_in.append([1.0, 4.0, 3.0])
+matris_in.append([1.0, 5.0, 3.0])
+matris_in.append([1.0, 6.0, 3.0])
+matris_in.append([1.0, 7.0, 3.0])
+matris_in.append([1.0, 8.0, 3.0])
+matris_in.append([1.0, 9.0, 3.0])
+matris_in.append([1.0, 10.0, 3.0])
+matris_in.append([1.0, 11.0, 3.0])
+
+# trans = numpy.mat(matris_in)
+m,n = numpy.shape(matris_in)
+print(m)
+print(n)
+print(sum(weights * matris_in[5]))

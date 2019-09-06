@@ -1,0 +1,16 @@
+syntax = "proto2";
+package com.tt.test;
+ message Person
+ {
+     optional string name = 1;
+     optional int32 id = 2;
+     optional string email = 3;
+ }
+
+ message Student
+  {
+      required string name = 1;
+      optional int32 id = 2;
+      optional string email = 3;
+      optional Person common = 4;
+  }
